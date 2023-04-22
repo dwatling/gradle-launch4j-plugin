@@ -29,8 +29,8 @@ dependencies {
 gradlePlugin {
     // Define the plugin
     val launch4j by plugins.creating {
-        id = "co.picacho.gradle.launch4j"
-        implementationClass = "co.picacho.gradle.GradleLaunch4jPlugin"
+        id = "io.watling.gradle.launch4j"
+        implementationClass = "io.watling.gradle.GradleLaunch4jPlugin"
     }
 }
 

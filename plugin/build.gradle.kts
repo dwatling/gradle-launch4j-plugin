@@ -12,6 +12,8 @@ plugins {
 
     // Apply the Kotlin JVM plugin to add support for Kotlin.
     id("org.jetbrains.kotlin.jvm") version "1.8.10"
+
+    id("com.gradle.plugin-publish") version "1.2.0"
 }
 
 repositories {
@@ -27,10 +29,18 @@ dependencies {
 }
 
 gradlePlugin {
-    // Define the plugin
-    val launch4j by plugins.creating {
-        id = "io.watling.gradle.launch4j"
-        implementationClass = "io.watling.gradle.GradleLaunch4jPlugin"
+    website.set("https://github.com/dwatling/gradle-launch4j-plugin")
+    vcsUrl.set("https://github.com/dwatling/gradle-launch4j-plugin.git")
+
+    plugins {
+        create("launch4j") {
+            id = "io.watling.gradle.launch4j"
+            version = "1.0.0"
+            displayName = "Gradle Launch4j Plugin"
+            description = "Launch4j Gradle Plugin. Wraps launch4j and uses existing launch4j.xml configuration."
+            tags.set(listOf("launch4j"))
+            implementationClass = "io.watling.gradle.GradleLaunch4jPlugin"
+        }
     }
 }
 

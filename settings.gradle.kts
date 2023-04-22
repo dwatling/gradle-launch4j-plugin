@@ -7,5 +7,5 @@
  * in the user manual at https://docs.gradle.org/8.1/userguide/multi_project_builds.html
  */
 
-rootProject.name = "gradle-launch4j-plugin"
+rootProject.name = "io.watling.gradle.launch4j"
 include("plugin")

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bc1a50ea-2bd1-4893-8907-bbda109c6683" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <recent name="co.picacho.gradle.tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GradleLaunch4jPluginFunctionalTest (1)">
+  <component name="RunManager" selected="Gradle.GradleLaunch4jPluginFunctionalTest.can run task (1)">
     <configuration name="GradleLaunch4jPluginFunctionalTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,6 +140,30 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="GradleLaunch4jPluginFunctionalTest.can run task (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":plugin:functionalTest" />
+            <option value="--tests" />
+            <option value="&quot;io.watling.gradle.GradleLaunch4jPluginFunctionalTest.can run task&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="GradleLaunch4jPluginFunctionalTest.can run task with overridden configFile (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -190,37 +214,13 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GradleLaunch4jPluginFunctionalTest.can run task" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":plugin:functionalTest" />
-            <option value="--tests" />
-            <option value="&quot;co.picacho.gradle.GradleLaunch4jPluginFunctionalTest.can run task&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GradleLaunch4jPluginFunctionalTest.can run task (1)" />
         <item itemvalue="Gradle.GradleLaunch4jPluginFunctionalTest (1)" />
         <item itemvalue="Gradle.GradleLaunch4jPluginFunctionalTest.can run task with overridden configFile (1)" />
         <item itemvalue="Gradle.GradleLaunch4jPluginFunctionalTest.can run task with overridden configFile" />
         <item itemvalue="Gradle.GradleLaunch4jPluginFunctionalTest" />
-        <item itemvalue="Gradle.GradleLaunch4jPluginFunctionalTest.can run task" />
       </list>
     </recent_temporary>
   </component>

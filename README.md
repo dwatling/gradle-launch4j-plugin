@@ -4,7 +4,7 @@ This is a simple Gradle plugin that wraps downloading, extracting, and running [
 
 It uses the standard XML configuration file that you can read more about [here](https://launch4j.sourceforge.net/docs.html).
 
-## How to use
+## Installation
 
 In your `plugins` section of your `build.gradle` file, add the following:
 
@@ -15,6 +15,8 @@ plugins {
     ...
 }
 ```
+
+## Configuration
 
 You don't need to specify a configuration block if you don't want to. These defaults will be used:
 
@@ -38,3 +40,11 @@ launch4j {
 ```
 
 Note that `downloadUrl` is a static string and will negate any `version` supplied. In other words, if you just need a specific version of Launch4j and don't want to specify a URL, just override `version`. If you have a preferred place to download Launch4j, then specify it using `downloadUrl`.
+
+## Execution
+
+Invoking the Gradle task is done by running the `runLaunch4j` task. Example:
+
+```bash
+./gradlew :app:runLaunch4j
+```

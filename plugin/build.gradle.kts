@@ -37,8 +37,8 @@ gradlePlugin {
             id = "io.watling.gradle.launch4j"
             version = "1.0.0"
             displayName = "Gradle Launch4j Plugin"
-            description = "Launch4j Gradle Plugin. Wraps launch4j and uses existing launch4j.xml configuration."
-            tags.set(listOf("launch4j"))
+            description = "Launch4j Gradle Plugin. Wraps Launch4j and uses existing launch4j.xml configuration."
+            tags.set(listOf("launch4j", "java", "windows"))
             implementationClass = "io.watling.gradle.GradleLaunch4jPlugin"
         }
     }
